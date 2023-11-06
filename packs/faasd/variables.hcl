@@ -67,7 +67,7 @@ variable "queue_worker_image_name" {
 
 variable "faasd_version" {
   type    = string
-  default = "0.18.2"
+  default = "0.14.3"
 }
 
 variable "nats_image_tag" {
