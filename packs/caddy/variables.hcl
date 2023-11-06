@@ -10,7 +10,7 @@ variable "job_name" {
 variable "datacenters" {
   description = "A list of datacenters in the region which are eligible for task placement."
   type        = list(string)
-  default     = ["dc1"]
+  default     = ["sun-nomadlab"]
 }
 
 variable "region" {
