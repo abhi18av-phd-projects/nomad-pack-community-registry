@@ -67,7 +67,7 @@ variable "queue_worker_image_name" {
 
 variable "faasd_version" {
   type    = string
-  default = "0.14.3"
+  default = "0.18.2"
 }
 
 variable "nats_image_tag" {
@@ -82,12 +82,12 @@ variable "auth_plugin_image_tag" {
 
 variable "gateway_image_tag" {
   type    = string
-  default = "0.21.0"
+  default = "0.27.3"
 }
 
 variable "queue_worker_image_tag" {
   type    = string
-  default = "0.12.2"
+  default = "0.14.1"
 }
 
 variable "faasd_provider_task_resources" {
